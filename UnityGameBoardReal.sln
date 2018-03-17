@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityGameBoardReal", "UnityGameBoardReal.csproj", "{6E5D73C5-8E5B-55D2-D642-1A3E92438E16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityGameBoardReal.Plugins", "UnityGameBoardReal.Plugins.csproj", "{FAC7132C-1D3F-80FF-9D23-198014A898CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityGameBoardReal.Editor", "UnityGameBoardReal.Editor.csproj", "{5DE19307-72F0-D665-9C3B-31B198E4149F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E5D73C5-8E5B-55D2-D642-1A3E92438E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5D73C5-8E5B-55D2-D642-1A3E92438E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5D73C5-8E5B-55D2-D642-1A3E92438E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5D73C5-8E5B-55D2-D642-1A3E92438E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC7132C-1D3F-80FF-9D23-198014A898CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC7132C-1D3F-80FF-9D23-198014A898CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC7132C-1D3F-80FF-9D23-198014A898CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC7132C-1D3F-80FF-9D23-198014A898CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE19307-72F0-D665-9C3B-31B198E4149F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE19307-72F0-D665-9C3B-31B198E4149F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE19307-72F0-D665-9C3B-31B198E4149F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE19307-72F0-D665-9C3B-31B198E4149F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
