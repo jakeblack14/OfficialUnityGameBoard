@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class ChooseCharacter : MonoBehaviour {
+public class ChooseCharacter : MonoBehaviour
+{
 
     public Text introText;
 
@@ -46,7 +48,7 @@ public class ChooseCharacter : MonoBehaviour {
     {
 
         GameBoardData.IsAlien = false;
-        AstronautButtons[index].image.sprite = AstroBackground;
+        //AstronautButtons[index].image.sprite = AstroBackground;
         currentAstro = Astronauts[index];
 
         for (int i = 0; i < 3; i++)
@@ -67,7 +69,7 @@ public class ChooseCharacter : MonoBehaviour {
     {
         GameBoardData.IsAlien = true;
 
-        AlienButtons[index].image.sprite = AlienBackground;
+        //AlienButtons[index].image.sprite = AlienBackground;
         currentAlien = Aliens[index];
 
         for (int i = 0; i< 3; i++)
