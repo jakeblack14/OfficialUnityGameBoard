@@ -8,15 +8,19 @@ public class CharacterButtonBehavior : MonoBehaviour, IPointerExitHandler, IPoin
 {
     private Button pb;
     public Sprite newSprite;
-    public Sprite oldSprite;
+    public Sprite clickedSprite;
+    private Sprite oldSprite;
 
     void Start()
     {
         pb = GetComponent<Button>();
+        pb.onClick.AddListener(TaskOnClick);
+        oldSprite = pb.image.sprite;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        oldSprite = pb.image.sprite;
         pb.image.sprite = newSprite;
     }
 
@@ -24,9 +28,10 @@ public class CharacterButtonBehavior : MonoBehaviour, IPointerExitHandler, IPoin
     {
         pb.image.sprite = oldSprite;
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    public void TaskOnClick()
+    {
+        pb.image.sprite = clickedSprite;
+        oldSprite = pb.image.sprite;
+    }
 }
