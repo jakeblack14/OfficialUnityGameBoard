@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 86747432}
   - component: {fileID: 86747431}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Title Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1395,7 +1395,9 @@ MonoBehaviour:
   Next: {fileID: 1004014899}
   Back: {fileID: 340722308}
   ScreenText: []
+  TitleText: []
   TextBox: {fileID: 1667429115}
+  TitleBox: {fileID: 86747431}
 --- !u!114 &340722307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1720,8 +1722,10 @@ MonoBehaviour:
   - {fileID: 1293015514880204, guid: a097977412a4caa408376680f584feae, type: 2}
   - {fileID: 1786610852267922, guid: d48bc49736c54864b808d2a4cbbd0f8f, type: 2}
   canvas: {fileID: 1664599250}
-  GameOverPanel: {fileID: 0}
-  winnerText: {fileID: 0}
+  GameOverPanel: {fileID: 1737912447538704, guid: 3ec01bbacbcf81345af382dd05f5be6b,
+    type: 2}
+  winnerText: {fileID: 114366426313645030, guid: 3ec01bbacbcf81345af382dd05f5be6b,
+    type: 2}
   turnText: {fileID: 665620867}
   Rocket: {fileID: 1425714107}
   selectedMat: {fileID: 2100000, guid: 6981dccdbd114a7011005aba44295342, type: 2}
@@ -4639,7 +4643,9 @@ MonoBehaviour:
   Next: {fileID: 1004014899}
   Back: {fileID: 340722308}
   ScreenText: []
+  TitleText: []
   TextBox: {fileID: 1667429115}
+  TitleBox: {fileID: 86747431}
 --- !u!114 &1004014901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5773,7 +5779,9 @@ MonoBehaviour:
   Next: {fileID: 1004014899}
   Back: {fileID: 340722308}
   ScreenText: []
+  TitleText: []
   TextBox: {fileID: 1667429115}
+  TitleBox: {fileID: 86747431}
 --- !u!114 &1409197207
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.19595471, g: 0.099782355, b: 0.11998931, a: 1}
+  m_IndirectSpecularColor: {r: 0.19596928, g: 0.099721186, b: 0.12003348, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -12969,7 +12969,9 @@ MonoBehaviour:
   Next: {fileID: 1298826642}
   Back: {fileID: 543438726}
   ScreenText: []
+  TitleText: []
   TextBox: {fileID: 2061273225}
+  TitleBox: {fileID: 0}
 --- !u!114 &543438725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33015,7 +33017,9 @@ MonoBehaviour:
   Next: {fileID: 1298826642}
   Back: {fileID: 543438726}
   ScreenText: []
+  TitleText: []
   TextBox: {fileID: 2061273225}
+  TitleBox: {fileID: 0}
 --- !u!114 &1298826644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38159,7 +38163,9 @@ MonoBehaviour:
   Next: {fileID: 1298826642}
   Back: {fileID: 543438726}
   ScreenText: []
+  TitleText: []
   TextBox: {fileID: 2061273225}
+  TitleBox: {fileID: 0}
 --- !u!114 &1525872831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47294,8 +47300,10 @@ MonoBehaviour:
   - {fileID: 1383104629395438, guid: 5758c85e056d1d848b06f36c5cbfde5c, type: 2}
   - {fileID: 1705553072412542, guid: 9e48dddd6d5d37a4190baf90462c0e46, type: 2}
   canvas: {fileID: 294127381}
-  GameOverPanel: {fileID: 0}
-  winnerText: {fileID: 0}
+  GameOverPanel: {fileID: 1737912447538704, guid: 3ec01bbacbcf81345af382dd05f5be6b,
+    type: 2}
+  winnerText: {fileID: 114366426313645030, guid: 3ec01bbacbcf81345af382dd05f5be6b,
+    type: 2}
   turnText: {fileID: 1715549973}
   Rocket: {fileID: 1665178067}
   selectedMat: {fileID: 2100000, guid: 74b24824a9d02ef4aa58ce73fe6bf59b, type: 2}

@@ -10,12 +10,12 @@ public class SettingsManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        
-	}
+        username.text = GameBoardData.Name;
+    }
 
     void Update()
     {
-        username.text = GameBoardData.Name;
+        GameBoardData.Name = username.text;
 
         if (GameBoardData.IsAlien)
         {
